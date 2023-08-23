@@ -1,0 +1,110 @@
+html {
+  text-align: center;
+  font-size: 62.5%;
+  
+}
+
+h1{
+  font-size: 8rem;
+box-shadow: 0px 1px 5px black;
+}
+.form-container{
+  width: 50rem;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem;
+  padding: 3rem;
+  border: 1px solid black;
+}
+.form .field{
+width: 100%;
+font-size: 2rem;
+}
+.field label{
+  padding: 1rem;
+}
+.field input{
+  border-radius:1rem;
+}
+button{
+  width: 30vmin;
+  height: 5rem;
+}
+.list{
+  border: 1px solid black;
+  width: 50rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.list i{
+  padding-top: 0.7rem;
+}
+.center{
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+.center h2{
+  font-size: 4rem;
+  color: brown;
+  text-decoration: underline;
+  padding: 2rem;
+}
+
+.search-bar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  margin: 3rem;
+}
+.search-bar input{
+  width: 32rem;
+  height: 6rem;
+  border-radius: 3rem;
+  padding-left: 2rem;
+  font-size: 2rem;
+}
+.main{
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 50rem;
+  height: 50rem;
+  margin: auto;
+}
+.main .img{
+  width: 20rem;
+  height: 20rem;
+}
+.img i{
+  width: 100%;
+  font-size: 10rem;
+}
+.details p{
+  font-size: 4rem;
+}
+.ui.blue.button, .ui.blue.buttons .button {
+  background-color: #2185d0;
+  color: #fff;
+  text-shadow: none;
+  background-image: none;
+  font-size: 2rem;
+  border-radius: 4rem;
+}
+header{
+  background-color: rgb(249, 167, 68);
+  margin-bottom: 3rem;
+}
+body{
+  background-color: bisque;
+}
+.text{
+  color: black;
+}
